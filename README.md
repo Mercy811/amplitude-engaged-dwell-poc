@@ -4,6 +4,8 @@ A standalone, static demo of the **delayed-events endpoint (heartbeat service)**
 tracking **engaged dwell time** per page view — exploration for Amplitude Browser SDK
 autocapture (SDKW-21).
 
+> **Exploration only — not shippable.** This is the earlier Solution 2 prototype. It measures visible dwell rather than interaction-based engaged time and emits a separate `[Amplitude] Page Viewed Completed` event. Those semantics are not the proposed Solution 3 architecture.
+
 **Live demo:** see the repo's GitHub Pages URL (Settings → Pages).
 
 ## What it shows
